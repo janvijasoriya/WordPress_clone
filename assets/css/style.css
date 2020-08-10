@@ -1,8 +1,15 @@
-body{
-    background-color: rgb(241, 241, 241);
+body {
+  background-color: #F5F7F9;
 }
-/* img{
-    height: 350px;
-    width: 800px;
-    overflow: hidden;
-} */
+
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid black;
+}
+
+.menu a:hover {
+  color: #5869DA;
+}
