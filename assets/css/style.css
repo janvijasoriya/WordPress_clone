@@ -9,7 +9,6 @@ body {
 .topnav a.active {
   border-bottom: 3px solid black;
 }
-
-.menu a:hover {
-  color: #5869DA;
+ .nav-link:hover{
+  color: #5869DA !important;
 }
