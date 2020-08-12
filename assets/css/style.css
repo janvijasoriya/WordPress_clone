@@ -1,13 +1,11 @@
 body {
   background-color: #F5F7F9;
+
 }
 
-.topnav a:hover {
-  border-bottom: 3px solid black;
-}
 
-.topnav a.active {
-  border-bottom: 3px solid black;
+.nav-link:hover {
+  color: #000000 ! important;
 }
  .nav-link:hover{
   color: #5869DA !important;
