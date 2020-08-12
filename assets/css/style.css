@@ -12,3 +12,9 @@ body {
  .nav-link:hover{
   color: #5869DA !important;
 }
+.textd{
+  text-decoration-color: black !important; 
+}
+.author:hover{
+  color: #5869DA !important;
+}
