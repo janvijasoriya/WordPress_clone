@@ -2,7 +2,13 @@ body {
   background-color: #F5F7F9;
 
 }
+<<<<<<< HEAD
 
 .nav-link:hover {
   color: #000000 ! important;
 }
+=======
+ .nav-link:hover{
+  color: #5869DA !important;
+}
+>>>>>>> 641a90c9fc132838306a7d8e1b3c8323f4942bd5
