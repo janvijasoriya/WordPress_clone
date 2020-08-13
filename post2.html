@@ -20,7 +20,8 @@
 <body>
 
   <!-- Header -->
-  <div class="header bg-white mb-4 shadow p-3 mb-5 bg-white rounded">
+  <div class="header bg-white mb-4 shadow">
+
     <nav class="navbar navbar-expand-lg navbar-light border-bottom">
       <div class="container">
         <a class="navbar-brand" href="/">
@@ -30,22 +31,22 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse text-secondary topnav " id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active menu ">
-              <a class="nav-link text-muted font-weight-bold" href="#">About <span class="sr-only">(current)</span></a>
+        <div class="collapse menu navbar-collapse text-secondary " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto h6 ">
+            <li class="nav-item active">
+              <a class="nav-link text-muted " href="#">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Elements <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-muted " href="#">Elements <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Contact<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-muted " href="#">Contact<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Authors <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-muted " href="authors.html">Authors <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Tags<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-muted " href="#">Tags<span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -58,32 +59,33 @@
     </nav>
 
     <nav class="navbar navbar-expand-lg navbar-light">
+
       <div class="container">
         <div class="collapse navbar-collapse topnav" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto h6 mb-2">
             <li class="nav-item active ">
-              <a class="nav-link text-muted font-weight-bold" href="#">Latest<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-muted " href="index.html">Latest<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Accessibility</a>
+              <a class="nav-link text-muted" href="#">Accessibility</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Business & Work </a>
+              <a class="nav-link text-muted" href="#">Business & Work </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Design</a>
+              <a class="nav-link text-muted" href="#">Design</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Education</a>
+              <a class="nav-link text-muted" href="#">Education</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Ghost Publishing</a>
+              <a class="nav-link text-muted" href="#">Ghost Publishing</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Inspiration</a>
+              <a class="nav-link text-muted" href="#">Inspiration</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-muted font-weight-bold" href="#">Lifestyle</a>
+              <a class="nav-link text-muted" href="#">Lifestyle</a>
             </li>
           </ul>
         </div>
@@ -155,39 +157,113 @@
       <div class="col-sm-4">
 
         <!-- Sidebar -->
+        <div class="card bg-dark mx-3 text-white">
+          <img src="assets/images/bgr.jpg" class="card-img" height="350">
+          <div class="card-img-overlay">
+            <h1 class="card-title">Zorify Newsletter</h1>
+            <h6 class="card-subtitle ">Join Zorify Newsletter to receive the latest updates in your inbox</h6>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control mt-4" id="emailid" placeholder="Your Email ID">
+                <button type="submit" class="btn btn-primary btn-block mt-3"><small>Subscribe</small></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="card my-4 mx-3">
+          <div class="d-flex flex-row justify-content-center border-0 p-4">
+            <a href="#" class="fa fa-twitter fa-2x px-2 text-muted text-decoration-none"></a>
+            <a href="#" class="fa fa-facebook fa-2x px-2 text-muted text-decoration-none"></a>
+            <a href="#" class="fa fa-instagram fa-2x px-2 text-muted text-decoration-none"></a>
+            <a href="#" class="fa fa-pinterest fa-2x px-2 text-muted text-decoration-none"></a>
+            <a href="#" class="fa fa-youtube fa-2x px-2 text-muted text-decoration-none"></a>
+            <a href="#" class="fa fa-wifi fa-2x px-2 text-muted text-decoration-none"></a>
+          </div>
+        </div>
+        <div class="container">
+          <h6 class="">Featured posts</h6>
+          <hr>
+          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
+            <div class="px-3 h5 text-dark m-0">Put a barrier between us and the world!
+              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+            </div>
+            <div class="p-4"><img src="assets/images/a1.jpg" class="ml-0 border" height="84" width="84"></div>
+          </a>
+          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
+            <div class="px-3 h5 py-4 text-dark m-0">And thats the double truth!
+              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+            </div>
+            <div class="p-4"><img src="assets/images/a2.jpg" class="ml-0 border" height="84" width="84"></div>
+          </a>
+          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
+            <div class="px-3 h5 py-4 text-dark m-0">Well, you know the facts!
+              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+            </div>
+            <div class="p-4"><img src="assets/images/a3.jpg" class="ml-0 border" height="84" width="84"></div>
+          </a>
+        </div>
 
+        <div class="container">
+          <a class="h6 text-decoration-none text-dark" href="#">Authors&nbsp;<i class="fa fa-xs fa-arrow-right"></i></a>
+          <hr>
+          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
+            <div class="h6 text-dark author m-0 font-weight-bold">Sara James
+              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+            </div>
+          </a>
+          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none author" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
+            <div class="h6 text-dark author m-0 font-weight-bold">Amelia Harry
+              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+            </div>
+          </a>
+          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none author" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
+            <div class="h6 text-dark author m-0 font-weight-bold">Olivia Thomas
+              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
   </div>
 
+
+  </div>
+  </div>
+
+  </div>
+
   <!-- Footer -->
-  <footer class="bg-white border-top">
+  <footer class=" bg-white border-top">
     <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-4 my-5">
           <h6 class="text-uppercase font-weight-bold">Zorify</h6>
           <hr>
-          <p>Create a subscription Ghost blog with a beautiful and minimalist design</p>
+          <p class="text-muted">Create a subscription Ghost blog with a beautiful and minimalist design</p>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-md-4 mt-5">
           <h6 class="text-uppercase font-weight-bold">Navigation</h6>
           <hr>
           <ul class="list-unstyled m-0">
             <li>
-              <a href="#">Page 1</a>
+              <a href="#" class="text-decoration-none text-muted">Themes</a>
             </li>
             <li>
-              <a href="#">Page 2</a>
+              <a href="#" class="text-decoration-none text-muted">Change Logs</a>
             </li>
             <li>
-              <a href="#">Page 3</a>
+              <a href="#" class="text-decoration-none text-muted">Documentation</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-md-4 mt-5">
           <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
           <hr>
           <input type="email" class="form-control mb-2" placeholder="Your email address">
@@ -201,7 +277,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
