@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -20,84 +21,86 @@
 <body>
 
   <!-- Header -->
-  <div class="header bg-white mb-4 shadow">
+  <div class="header bg-white mb-5 rounded shadow">
 
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <h3 class="text-bold">Zorify</h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="header bg-white mb-4 ">
 
-        <div class="collapse menu navbar-collapse text-secondary " id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto h6 ">
-            <li class="nav-item active">
-              <a class="nav-link text-muted " href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted " href="#">Elements <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted " href="#">Contact<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted " href="authors.html">Authors <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted " href="#">Tags<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0 " type="submit">Log In</button>&nbsp;&nbsp;
-            <button class="btn  btn-primary my-2 my-sm-0" type="submit">subscribe</button>
-          </form>
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <h3 class="text-bold">Zorify</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse menu navbar-collapse text-secondary " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto h6 ">
+              <li class="nav-item active">
+                <a class="nav-link text-muted " href="post2.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted " href="#">Elements <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted " href="#">Contact<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted " href="authors.html">Authors <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted " href="tags.html">Tags<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 mx-2 my-sm-0" type="submit">Log In</button>
+              <button class="btn btn-primary my-2 my-sm-0 " type="submit">Subscribe</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
 
-      <div class="container">
-        <div class="collapse navbar-collapse topnav" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto h6 mb-2">
-            <li class="nav-item active ">
-              <a class="nav-link text-muted " href="index.html">Latest<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Accessibility</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Business & Work </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Design</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Education</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Ghost Publishing</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Inspiration</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-muted" href="#">Lifestyle</a>
-            </li>
-          </ul>
+        <div class="container">
+          <div class="collapse navbar-collapse topnav my-2" id="navbarSupportedContent">
+            <ul class="navbar-nav h6">
+              <li class="nav-item active ">
+                <a class="nav-link text-muted " href="index.html">Latest<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Accessibility</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Business & Work </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Design</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Education</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Ghost Publishing</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Inspiration</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-muted" href="#">Lifestyle</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
+
   <div class="container">
 
-
-
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-md-8">
 
         <!-- Tages -->
 
@@ -108,24 +111,26 @@
         </div>
         <div class="row">
 
-          <div class="col-6 mb-3">
+          <div class="col-6 mb-5 mt-3">
             <div class="card card-inverse bg-white">
-              <img src="../images/img2.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
 
               </div>
             </div>
 
           </div>
 
-          <div class="col-6 mb-3">
+          <div class="col-6 mb-5 mt-3">
             <div class="card card-inverse bg-white">
-              <img src="../images/img2.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
 
               </div>
             </div>
@@ -134,24 +139,52 @@
 
 
 
-          <div class="col-6 mb-3">
+          <div class="col-6 mb-5">
             <div class="card card-inverse bg-white">
-              <img src="../images/img2.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 mb-5">
+            <div class="card card-inverse bg-white">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
 
               </div>
             </div>
 
           </div>
 
-          <div class="col-6 mb-3">
+          <div class="col-6 mb-5">
             <div class="card card-inverse bg-white">
-              <img src="../images/img2.jpg" class="card-img-top" alt="...">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-6 mb-5">
+            <div class="card card-inverse bg-white">
+              <img src="assets/images/img2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
 
               </div>
             </div>
@@ -165,13 +198,13 @@
 
 
 
-      <div class="col-sm-4">
+      <div class="col-md-4">
 
         <!-- Sidebar -->
         <div class="card bg-dark mx-3 text-white">
-          <img src="assets/images/bgr.jpg" class="card-img" height="350">
+          <img src="assets/images/bgr.jpg" class="card-img " height="350">
           <div class="card-img-overlay">
-            <h1 class="card-title">Zorify Newsletter</h1>
+            <h1 class="card-title text-decoration-none">Zorify Newsletter</h1>
             <h6 class="card-subtitle ">Join Zorify Newsletter to receive the latest updates in your inbox</h6>
             <form>
               <div class="form-group">
@@ -193,62 +226,63 @@
           </div>
         </div>
         <div class="container">
-          <h6 class="">Featured posts</h6>
+          <h6 class="text-dark text-uppercase">Featured posts</h6>
           <hr>
-          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
-            <div class="px-3 h5 text-dark m-0">Put a barrier between us and the world!
-              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+          <a href="#" class="d-flex flex-row border bg-white mb-3 align-items-center justify-content-between text-decoration-none">
+            <div class="px-3 h5 text-dark m-0 ct">
+              <p id="ct">Put a barrier between us and the world!</p>
+              <p class="text-muted h6 m-0">16 Oct 2019</p>
             </div>
             <div class="p-4"><img src="assets/images/a1.jpg" class="ml-0 border" height="84" width="84"></div>
           </a>
-          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
-            <div class="px-3 h5 py-4 text-dark m-0">And thats the double truth!
-              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+          <a href="#" class="d-flex flex-row border bg-white mb-3 align-items-center justify-content-between text-decoration-none">
+            <div class="px-3 h5 text-dark m-0 ct">
+              <p id="ct">And thats the double truth!</p>
+              <p class="text-muted h6 m-0">16 Oct 2019</p>
             </div>
             <div class="p-4"><img src="assets/images/a2.jpg" class="ml-0 border" height="84" width="84"></div>
           </a>
-          <a href="#" class="d-flex flex-row bg-white mb-3 align-items-center">
-            <div class="px-3 h5 py-4 text-dark m-0">Well, you know the facts!
-              <footer class="pt-0 "><small class="text-dark">16 Oct 2019</small></footer>
+          <a href="#" class="d-flex flex-row border bg-white mb-3 align-items-center justify-content-between text-decoration-none">
+            <div class="px-3 h5 py-4 text-dark m-0">
+              <p id="ct">Well, you know the facts!</p>
+              <p class="text-muted h6 mt-0">16 Oct 2019</p>
             </div>
             <div class="p-4"><img src="assets/images/a3.jpg" class="ml-0 border" height="84" width="84"></div>
           </a>
         </div>
 
         <div class="container">
-          <a class="h6 text-decoration-none text-dark" href="#">Authors&nbsp;<i class="fa fa-xs fa-arrow-right"></i></a>
+          <a class="h6 text-decoration-none text-dark text-uppercase" href="#">Authors&nbsp;</a>
           <hr>
-          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none" href="#">
-            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
-            <div class="h6 text-dark author m-0 font-weight-bold">Sara James
-              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+          <a class="d-flex flex-row border bg-white mb-3 align-items-center text-decoration-none" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75">
+            </div>
+            <div class="h6 text-dark author m-0 font-weight-bold">
+              <p id="tc">Sara James</p>
+              <small class="text-muted font-weight-bold">Author and Developer</small>
             </div>
           </a>
-          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none author" href="#">
-            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
-            <div class="h6 text-dark author m-0 font-weight-bold">Amelia Harry
-              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+          <a class="d-flex flex-row border bg-white mb-3 align-items-center text-decoration-none author" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75">
+            </div>
+            <div class="h6 text-dark author m-0 font-weight-bold">
+              <p id="tc">Amelia Harry</p>
+              <small class="text-muted font-weight-bold">Author and Developer</small>
             </div>
           </a>
-          <a class="d-flex flex-row bg-white mb-3 align-items-center text-decoration-none author" href="#">
-            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75"></div>
-            <div class="h6 text-dark author m-0 font-weight-bold">Olivia Thomas
-              <footer class="pt-0 "><small class="text-muted font-weight-bold">Author and Developer</small></footer>
+          <a class="d-flex flex-row border bg-white mb-3 align-items-center text-decoration-none author" href="#">
+            <div class="p-3"><img src="assets/images/a1.jpg" class="ml-0 border rounded-circle" height="75" width="75">
+            </div>
+            <div class="h6 text-dark author m-0 font-weight-bold">
+              <p id="tc">Olivia Thomas</p>
+              <small class="text-muted font-weight-bold">Author and Developer</small>
             </div>
           </a>
         </div>
       </div>
-
-
     </div>
 
   </div>
-  </div>
-  </div>
-
-
-
-
   <!-- Footer -->
   <footer class=" bg-white border-top">
     <div class="container text-center text-md-left">
@@ -279,7 +313,7 @@
           <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
           <hr>
           <input type="email" class="form-control mb-2" placeholder="Your email address">
-          <button class="btn btn-primary btn-block" type="submit">Subscribe</button>
+          <button class="btn btn-primary btn-block c-btn--action" type="submit">Subscribe</button>
         </div>
 
         <div class="col-md-12 text-center pb-4">

@@ -5,9 +5,9 @@ body {
 .nav-link:hover {
   color: #000000 ! important;
 }
- .nav-link:hover{
+/*.nav-link:hover{
   color: #5869DA !important;
-}
+}*/
 .textd{
   text-decoration-color: black !important; 
 }
